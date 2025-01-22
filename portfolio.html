@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sharifah Nur'Aneefa Aniza</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <style>
+    /* General Styles */
+    body {
+      font-family: "Poppins", sans-serif;
+      font-size: larger;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Poppins", sans-serif;
+      font-size: x-large;
+      font-weight: bold;
+      color: black;
+    }
+    .w3-row-padding img {
+      margin-bottom: 12px;
+    }
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('https://static.vecteezy.com/system/resources/previews/019/513/141/large_2x/programmer-working-the-programmer-works-on-the-computer-a-man-sits-at-his-desk-above-him-windows-with-program-code-flat-illustration-vector.jpg'); /* Replace with your image path */
+      min-height: 100%;
+    }
+
+    .interactive-item {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 8px;
+  }
+
+  .interactive-item:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+  }
+
+  .interactive-item .icon {
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+
+  .interactive-item:hover .icon {
+    color: #2196F3;
+  }
+
+  .details {
+    font-weight: normal;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.7;
+  }
+
+  .interactive-item:hover .details {
+    opacity: 1;
+  }
+
+  .w3-container {
+    font-size: medium;
+  }
+  
+  </style>
+</head>
+
+<body>
+  <!-- Sidebar with Background Image -->
+  <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+    <div class="bgimg"></div>
+  </nav>
+
+  <!-- Hidden Sidebar -->
+  <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+      <a href="#home" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+      <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+      <a href="#project" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Projects</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Main Page Content -->
+  <div class="w3-main w3-padding-large" style="margin-left:40%">
+
+     <!-- Menu icon to open sidebar -->
+    <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <!-- Header Section -->
+    <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+      <h1 class="w3-jumbo">Sharifah Nur'Aneefa Aniza</h1>
+      <p>Aspiring Data Analyst | Skilled in Data Visualization and Analytics Tools | Web Design & Developer </p>
+      <!-- Download Resume Button -->
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <!-- Download Resume Button -->
+        <a href="Resume_Sharifah Nur'Aneefa Aniza.pdf" download="Sharifah_Nur'Aneefa_Resume.pdf">
+          <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+            <i class="fa fa-download"></i> Download Resume
+          </button>
+        </a>
+      
+        <!-- Download Transcript Button -->
+        <a href="TRANSKRIP_MINI_ENG_HEA.pdf" download="Sharifah_Nur'aneefa_Transcript.pdf">
+          <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+            <i class="fa fa-download"></i> Download Transcript
+          </button>
+        </a>
+      </div>
+      
+    </header>
+
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+      <h2>About</h2>
+      <hr class="w3-opacity">
+      <p>
+        Aspiring data analyst with a strong foundation in computer science, specializing in data structures, visualization, and big data. Skilled in data transformation, programming, and analytics tools like Power BI and MySQL. Known for adaptability, organization, and a results-oriented mindset.
+      </p>
+      <h3 class="w3-padding-16">Education</h3>
+      <p>
+        <b>Universiti Teknologi MARA (UiTM)</b>, Shah Alam, Selangor<br>
+        Bachelor of Computer Science (Hons.) Big Data (2023 - Present)<br>
+        CGPA: 3.49
+      </p>
+      <p>
+        <b>Universiti Teknologi MARA (UiTM)</b>, Samarahan, Sarawak<br>
+        Diploma in Computer Science (2020 - 2023)<br>
+        CGPA: 3.76 (Vice-Chancellor’s Award)
+      </p>
+      <h3>Experience</h3>
+      <p><b>Data Solutions Sarawak</b>, Kuching, Sarawak (Sep 2022 – Feb 2023)</p>
+      <ul>
+        <li>Extracted and transformed legal case data into XML format, ensuring compliance with standards.</li>
+        <li>Streamlined documentation processes, improving task efficiency.</li>
+      </ul>
+      <p><b>Freelance Sales</b>, Shah Alam, Selangor (Jan 2023, July 2024)</p>
+      <ul>
+        <li>Managed sales of products such as scarves and flowers, delivering exceptional customer service.</li>
+        <li>Maintained an organized inventory and optimized product displays to attract and engage customers.</li>
+      </ul>
+      <p><b>Siswa Beauty Preneur MASMED</b>, Shah Alam, Selangor (Jan 2023, July 2024)</p>
+      <ul>
+        <li>Provided professional massage therapy services, ensuring client satisfaction.</li>
+        <li>Developed strong interpersonal and time-management skills through consistent client engagement.</li>
+      </ul>
+      <h3>Skills</h3>
+      <ul>
+        <ul style="list-style-type: none; padding: 0;">
+          <li class="interactive-item">
+            <i class="fa fa-language icon"></i>
+            <b>Languages:</b> 
+            <span class="details">Malay (Native), English (Proficient), Mandarin (Beginner)</span>
+          </li>
+          <li class="interactive-item">
+            <i class="fa fa-cogs icon"></i>
+            <b>Technical:</b> 
+            <span class="details">Programming (HTML, CSS, JavaScript, SQL, Java), Data Tools (Power BI, MySQL)</span>
+          </li>
+        </ul>
+        <ul style="list-style-type: none; padding: 0;">
+          <li class="interactive-item">
+            <i class="fa fa-users icon"></i>
+            <b>Soft Skills:</b> 
+            <span class="details">Team Collaboration, Time Management, Customer Service</span>
+          </li>
+        </ul>
+      </ul>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="w3-padding-32 w3-content" id="portfolio">
+      <h2>Projects</h2>
+      <hr class="w3-opacity">
+
+      <!-- Grid for Projects -->
+      <div class="w3-row-padding w3-center" style="margin:0 -16px;">
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card w3-white w3-hover-shadow" style="height:230px;" onclick="openModal('attendanceModal')">
+            <div class="w3-container">
+              <h3>Attendance System</h3>
+              <p>Developed a system using PHP to manage staff attendance efficiently.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card w3-white w3-hover-shadow" style="height:230px;" onclick="openModal('imageRecognitionModal')">
+            <div class="w3-container">
+              <h3>Image Recognition Model</h3>
+              <p>Built a model using Convolutional Neural Networks (CNN) for image classification.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card w3-white w3-hover-shadow" style="height:230px;" onclick="openModal('websiteModal')">
+            <div class="w3-container">
+              <h3>SiswaJob - Online Employment System Portal</h3>
+              <p>Created a job search management system focusing on Java Servlets.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card w3-white w3-hover-shadow" style="height:230px;" onclick="openModal('databaseModal')">
+            <div class="w3-container">
+              <h3>Multimedia Works</h3>
+              <p>Created various multimedia projects, focusing on integrating design with interactive media to enhance user experience.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card w3-white w3-hover-shadow" style="height:230px;" onclick="openModal('chatbotModal')">
+            <div class="w3-container">
+              <h3>AI Chatbot</h3>
+              <p>Developed an AI chatbot specializing in mental health support using NLP.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card w3-white w3-hover-shadow" style="height:230px;" onclick="openModal('crimeDashboardModal')">
+            <div class="w3-container">
+              <h3>Crime Dashboard</h3>
+              <p>Designed a dashboard system using data visualization techniques to analyze crime trends.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modals for each project with images -->
+      <div id="attendanceModal" class="w3-modal">
+        <div class="w3-modal-content">
+          <header class="w3-container w3-teal">
+            <span onclick="closeModal('attendanceModal')" class="w3-button w3-display-topright">&times;</span>
+            <h2>Attendance System</h2>
+          </header>
+          <div class="w3-container">
+            <p>This is a detailed description of the Attendance System project...</p>
+            <ul>
+              <li>Developed using PHP and MySQL for backend database integration.</li>
+              <li>Features include login system, daily attendance logging, and reporting functionalities.</li>
+              <li>Implemented real-time data validation and reporting for HR staff.</li>
+            </ul>
+            <img src="attendance-system.jpg" alt="Attendance System Image 1" style="width:100%; margin-bottom:10px;">
+            <img src="attendance-system-2.jpg" alt="Attendance System Image 2" style="width:100%;">
+          </div>
+        </div>
+      </div>
+      
+      <div id="imageRecognitionModal" class="w3-modal">
+        <div class="w3-modal-content">
+          <header class="w3-container w3-teal">
+            <span onclick="closeModal('imageRecognitionModal')" class="w3-button w3-display-topright">&times;</span>
+            <h2>Image Recognition Model</h2>
+          </header>
+          <div class="w3-container">
+            <p>This is a detailed description of the Image Recognition Model project...</p>
+            <ul>
+              <li>Built using Convolutional Neural Networks (CNN) for classifying images into predefined categories.</li>
+              <li>Trained with a dataset of over 10,000 images, achieving an accuracy rate of 85%.</li>
+              <li>Implemented with TensorFlow and Keras for deep learning model development.</li>
+            </ul>
+            <img src="ball-recognition.png" alt="Image Recognition Model Image 1" style="width:100%; margin-bottom:10px;">
+          </div>
+        </div>
+      </div>
+      
+      <div id="websiteModal" class="w3-modal">
+        <div class="w3-modal-content">
+          <header class="w3-container w3-teal">
+            <span onclick="closeModal('websiteModal')" class="w3-button w3-display-topright">&times;</span>
+            <h2>SiswaJob - Online Employment System Portal</h2>
+          </header>
+          <div class="w3-container">
+            <p>This is a detailed description of the SiswaJob project...</p>
+            <ul>
+              <li>Developed a job search system using Java Servlets, focusing on real-time job listing updates.</li>
+              <li>Implemented an admin panel for employers to post job vacancies and manage applications.</li>
+              <li>Created a user-friendly interface for job seekers to apply for jobs based on their profile and skills.</li>
+            </ul>
+            <img src="siswajob.png" alt="Website Image 1" style="width:100%; margin-bottom:10px;">
+            <img src="siswajob-2.png" alt="Website Image 2" style="width:100%;">
+          </div>
+        </div>
+      </div>
+      
+      <div id="databaseModal" class="w3-modal">
+        <div class="w3-modal-content">
+          <header class="w3-container w3-teal">
+            <span onclick="closeModal('databaseModal')" class="w3-button w3-display-topright">&times;</span>
+            <h2>Multimedia Works</h2>
+          </header>
+          <div class="w3-container">
+            <p>This is a detailed description of the Multimedia project...</p>
+            <ul>
+            </ul>
+            <img src="media-1.png" style="width:100%; margin-bottom:10px;">
+            <img src="media-2.png" style="width:100%;">
+            <img src="media-3.png" style="width:100%;">
+            <img src="media-4.png" style="width:100%;">
+            <video width="100%" controls>
+              <source src="montage.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      
+      <div id="chatbotModal" class="w3-modal">
+        <div class="w3-modal-content">
+          <header class="w3-container w3-teal">
+            <span onclick="closeModal('chatbotModal')" class="w3-button w3-display-topright">&times;</span>
+            <h2>AI Chatbot</h2>
+          </header>
+          <div class="w3-container">
+            <p>This is a detailed description of the AI Chatbot project...</p>
+            <ul>
+              <li>Developed using Natural Language Processing (NLP) to understand and respond to user queries.</li>
+              <li>Trained with datasets from mental health support websites to assist users with mental health concerns.</li>
+              <li>Implemented with Python libraries like NLTK and spaCy for language processing.</li>
+            </ul>
+            <img src="chatbot.png" alt="AI Chatbot Image 1" style="width:100%; margin-bottom:10px;">
+            <video width="100%" controls>
+              <source src="Video Promotion.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      
+      <div id="crimeDashboardModal" class="w3-modal">
+        <div class="w3-modal-content">
+          <header class="w3-container w3-teal">
+            <span onclick="closeModal('crimeDashboardModal')" class="w3-button w3-display-topright">&times;</span>
+            <h2>Crime Dashboard</h2>
+          </header>
+          <div class="w3-container">
+            <p>This is a detailed description of the Crime Dashboard project...</p>
+            <ul>
+              <li>Developed using data visualization tools to showcase trends in crime data.</li>
+              <li>Integrated multiple charts and graphs to represent data such as crime rates, locations, and times.</li>
+              <li>Used JavaScript libraries like Chart.js for dynamic data visualization and interaction.</li>
+            </ul>
+            <img src="crime-dashboard.png" alt="Crime Dashboard Image 1" style="width:100%; margin-bottom:10px;">
+            <img src="crime-dashboard-2.png" alt="Crime Dashboard Image 2" style="width:100%;">
+          </div>
+        </div>
+      </div>      
+      <!-- End Grid for Projects -->
+    </div>
+
+
+    <!-- Contact Section -->
+    <div class="w3-padding-32 w3-content w3-text-grey" id="contact">
+      <h2>Contact Me</h2>
+      <hr class="w3-opacity">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Seksyen 7, 40000 Shah Alam, Selangor</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> (+60) 10-7133435</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> sharifahaneefa@gmail.com</p>
+      <p><i class="fa fa-linkedin fa-fw w3-xxlarge w3-margin-right"></i> <a href="https://www.linkedin.com/in/sharifahaneefa" target="_blank">LinkedIn Profile</a></p>
+    </div>
+  </div>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    // Function to open the sidebar
+    function openNav() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    // Function to close the sidebar
+    function closeNav() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+
+    // Open modal
+    function openModal(modalId) {
+      document.getElementById(modalId).style.display = 'block';
+    }
+
+    // Close modal
+    function closeModal(modalId) {
+      document.getElementById(modalId).style.display = 'none';
+    }
+  </script>
+</body>
+</html>
